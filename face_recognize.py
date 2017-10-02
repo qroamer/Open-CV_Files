@@ -3,6 +3,7 @@ import cv2
 imagePath = "/home/pi/Pictures/Group2016.jpg"
 cascPath = "/home/pi/FaceDetect/haarcascade_frontalface_default.xml"
 
+#This is the cascade
 faceCascade = cv2.CascadeClassifier(cascPath)
 
 image = cv2.imread(imagePath)
